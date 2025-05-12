@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - OnlyDaddy</title>
+  <link rel="stylesheet" href="Styledark.css">
+</head>
+<body data-theme="dark">
+  <header>
+    <div class="logo">
+      <img src="Logo.png" alt="OnlyDaddy Logo">
+    </div>
+    <nav>
+      <a href="/login.html" class="btn">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Create Your Account</h2>
+    <p>Join the OnlyDaddy community and start exploring exclusive content.</p>
+  </section>
+
+  <section class="features">
+    <form action="/submit-signup" method="POST" class="card">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit" class="btn">Sign Up</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 OnlyDaddy. All rights reserved.
+  </footer>
+</body>
+</html>

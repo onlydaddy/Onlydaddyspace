@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OnlyDaddy</title>
+  <link rel="stylesheet" href="Styledark.css">
+</head>
+<body data-theme="dark">
+  <header>
+    <div class="logo">
+      <img src="Logo.png" alt="OnlyDaddy Logo">
+    </div>
+    <nav>
+      <a href="/login.html">Login</a>
+      <a href="/signup.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Exclusive Content from Your Favorite Daddies</h2>
+    <p>Subscribe to creators and enjoy premium content with total privacy and style. Welcome to the OnlyDaddy experience.</p>
+    <a href="/signup.html" class="btn">Sign up today!</a>
+  </section>
+
+  <section class="features">
+    <div class="creator card">
+      <img src="https://via.placeholder.com/100" alt="Creator 1">
+      <h3>DaddyMax</h3>
+      <p>Fitness, lifestyle, and exclusive moments.</p>
+    </div>
+    <div class="creator card">
+      <img src="https://via.placeholder.com/100" alt="Creator 2">
+      <h3>UncleJay</h3>
+      <p>Behind-the-scenes and daily drops.</p>
+    </div>
+    <div class="creator card">
+      <img src="https://via.placeholder.com/100" alt="Creator 3">
+      <h3>ChefDaddy</h3>
+      <p>Cooking tutorials with a spicy twist.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 OnlyDaddy. All rights reserved.
+  </footer>
+</body>
+</html>
